@@ -11,27 +11,47 @@ export default function Navigation() {
     <div className="container mx-auto mt-6">
       <ul className="flex flex-wrap items-center justify-center gap-5 text-xs font-semibold lg:text-base">
         <li>
-          <a className=" cursor-pointer" onClick={handleClick}>
+          <a
+            href="javascript:void(0)"
+            className=" cursor-pointer"
+            onClick={handleClick}
+          >
             General
           </a>
         </li>
         <li>
-          <a className=" cursor-pointer" onClick={handleClick}>
+          <a
+            href="javascript:void(0)"
+            className=" cursor-pointer"
+            onClick={handleClick}
+          >
             Business
           </a>
         </li>
         <li>
-          <a className=" cursor-pointer" onClick={handleClick}>
+          <a
+            href="javascript:void(0)"
+            className=" cursor-pointer"
+            onClick={handleClick}
+          >
             Entertainment
           </a>
         </li>
         <li>
-          <a className=" cursor-pointer" onClick={handleClick}>
+          <a
+            href="javascript:void(0)"
+            className=" cursor-pointer"
+            onClick={handleClick}
+          >
             Health
           </a>
         </li>
         <li>
-          <a className=" cursor-pointer" onClick={handleClick}>
+          <a
+            href="javascript:void(0)"
+            className=" cursor-pointer"
+            onClick={handleClick}
+          >
             Science
           </a>
         </li>
@@ -41,7 +61,11 @@ export default function Navigation() {
           </a>
         </li>
         <li>
-          <a className=" cursor-pointer" onClick={handleClick}>
+          <a
+            href="javascript:void(0)"
+            className=" cursor-pointer"
+            onClick={handleClick}
+          >
             Technology
           </a>
         </li>
