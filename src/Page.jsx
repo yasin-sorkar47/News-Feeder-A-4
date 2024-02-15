@@ -8,17 +8,17 @@ export default function Page() {
   const { loading } = useContext(newsContext);
   return (
     <>
+      <Header />
       {loading.status ? (
         <div className="flex justify-center mt-6">
           <p className=" text-3xl p-4 bg-gray-500 rounded">{loading.message}</p>
         </div>
       ) : (
         <>
-          <Header />
           <NewsFeed />
-          <Footer />
         </>
       )}
+      <Footer />
     </>
   );
 }
