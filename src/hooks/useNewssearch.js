@@ -32,7 +32,6 @@ const useNewsSearch = () => {
       const data = await response.json();
 
       let updateSearchData = data.result;
-
       setSelectedItem(updateSearchData);
     } catch (error) {
       setError(error);
